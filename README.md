@@ -51,7 +51,7 @@ Note: The Licences of these functions are provided in the `Functions` folder.
 
 In the `Results` folder you can find:
 
-'df_complexity.pkl' - Complexity measure calculated on the main sample (output of `get_complexity`)
+`df_complexity.pkl` - Complexity measure calculated on the main sample (output of `get_complexity`)
 
 `microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, needed for replication analyses)
 
