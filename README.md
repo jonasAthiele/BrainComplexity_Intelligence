@@ -39,11 +39,11 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 ### Functions
 
-`microstates_subject` - Computing subject-specific microstates, functions from mne-microstates module, authored by Marijn van Vliet (https://github.com/wmvanvliet/mne_microstates.git)
+- `microstates_subject` - Computing subject-specific microstates, functions from mne-microstates module, authored by Marijn van Vliet (https://github.com/wmvanvliet/mne_microstates.git)
 
-`microstates_group` - Computing group-specific microstates, same functions as `microstates_subject` with a minor change.
+- `microstates_group` - Computing group-specific microstates, same functions as `microstates_subject` with a minor change.
 
-`entropy` - For computing Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
+- `entropy` - For computing Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
 
 Note: The Licences of these functions are provided in the `Functions` folder.
 
@@ -51,17 +51,17 @@ Note: The Licences of these functions are provided in the `Functions` folder.
 
 In the `Results` folder you can find:
 
-`df_complexity.pkl` - Complexity measure calculated on the main sample (output of `get_complexity`)
+- `df_complexity.pkl` - Complexity measure calculated on the main sample (output of `get_complexity`)
 
-`microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, needed for replication analyses)
+- `microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, needed for replication analyses)
 
-`channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
+- `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
 
-`df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
+- `df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
 
-`df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main`)
+- `df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main`)
 
-`df_results_repli.pkl` - Associations between complexity measures and intelligence replication sample (output of `analysis_repli`)
+- `df_results_repli.pkl` - Associations between complexity measures and intelligence replication sample (output of `analysis_repli`)
 
 ## 5. Software requirements
 -	Python 3.8
