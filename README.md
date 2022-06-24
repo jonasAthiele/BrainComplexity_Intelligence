@@ -69,7 +69,7 @@ The `Results` folder contains:
 
 ## 5. Software requirements
 Analyses were conducted using Python 3.8
-For requirements please refer to `Requirements.txt`.	
+For requirements please refer to `requirements.txt`.	
 
 ## References
 Bigdely-Shamlo N, Mullen T, Kothe C, Su K-M, Robbins KA (2015) The PREP pipeline: standardized preprocessing for large-scale EEG analysis. Front Neuroinform 9.
