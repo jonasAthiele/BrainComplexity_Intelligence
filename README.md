@@ -47,6 +47,22 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 Note: The Licences of these functions are provided in the `Functions` folder.
 
+### Results
+
+In the `Results` folder you can find:
+
+'df_complexity.pkl' - Complexity measure calculated on the main sample (output of `get_complexity` and needed for `analysis_main`)
+
+`microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, needed for replication analyses, `plot_results`)
+
+`channel_names` - Channel names of main sample (output from `df_complexity.pkl`, needed for all subsequent analyses)
+
+'df_complexity_repli.pkl' - Complexity measure calculated on the replication sample (output of  `get_complexity_repli` and needed for `analysis_repli`)
+
+'df_results_main.pkl' - Associations between complexity measures and intelligence main sample (output of `analysis_main` and needed for `plot_results`)
+
+'df_results_repli.pkl' - Associations between complexity measures and intelligence replication sample (output of `analysis_main` and needed for `plot_results`)
+
 ## 5. Software requirements
 -	Python 3.8
 -	
