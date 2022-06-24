@@ -15,7 +15,7 @@ The raw data analyzed during the study will be made available by the correspondi
 
 For the analyses conducted in this study, the scripts should be run in the following order:
 
-1.	`get_complexity_main` - Preprocessing, computation of complexity measures (entropy and microstate measures).
+1.	`get_complexity_main` - Main sample: Preprocessing, computation of complexity measures (entropy and microstate measures).
                             Note that ICA components wanting to be excluded for artefact removal during preprocessing need to be adapted manually (chosen by visual inspection).
                             Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015). 
   
@@ -24,7 +24,7 @@ For the analyses conducted in this study, the scripts should be run in the follo
 
 ### Replication sample
 
-3.	`get_complexity_repli` - Preprocessing, computation of complexity measures (entropy and microstate measures).
+3.	`get_complexity_repli` - Replication sample: Preprocessing, computation of complexity measures (entropy and microstate measures).
                              Note that ICA components wanting to be excluded for artefact removal during preprocessing need to be adapted manually (chosen by visual inspection). 
                              Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015).   
   
