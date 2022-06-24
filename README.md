@@ -28,7 +28,7 @@ For the analyses conducted in this study, the scripts should be run in the follo
                              Note that ICA components wanting to be excluded for artefact removal during preprocessing need to be adapted manually (chosen by visual inspection). 
                              Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015).   
   
-4.	`analysis_repli` - Factor analysis, single associations between complexity measures and intelligence, and multimodal model to predict intelligence in main sample
+4.	`analysis_repli` - Factor analysis, single associations between complexity measures and intelligence, and multimodal model to predict intelligence in replication sample
 
 ### Additional analyses
 
