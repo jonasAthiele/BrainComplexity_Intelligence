@@ -61,7 +61,7 @@ In the `Results` folder you can find:
 
 `df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main`)
 
-'df_results_repli.pkl' - Associations between complexity measures and intelligence replication sample (output of `analysis_repli`)
+`df_results_repli.pkl` - Associations between complexity measures and intelligence replication sample (output of `analysis_repli`)
 
 ## 5. Software requirements
 -	Python 3.8
