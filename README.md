@@ -31,7 +31,7 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 ### Visualization
 
-5. `plot-results` - Visualization of association between complexity measures and intelligence
+5. `plot_results` - Visualization of association between complexity measures and intelligence
 
 ### Additional analysis
 
@@ -39,11 +39,13 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 ### Functions
 
-`microstates_subject` - Computing subject-specific microstates, function from mne-microstates module authored by Marijn van Vliet (https://github.com/wmvanvliet/mne_microstates.git)
+`microstates_subject` - Computing subject-specific microstates, functions from mne-microstates module, authored by Marijn van Vliet (https://github.com/wmvanvliet/mne_microstates.git)
 
-`microstates_group` - Computing group-specific microstates, same function as `microstates_subject` with minor changes.
+`microstates_group` - Computing group-specific microstates, same functions as `microstates_subject` with a minor change.
 
-Note: The Licence of these functions is provided in the `Functions` folder.
+`entropy` - For computing Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
+
+Note: The Licences of these functions are provided in the `Functions` folder.
 
 ## 5. Software requirements
 -	Python 3.8
