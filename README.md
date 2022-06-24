@@ -49,7 +49,7 @@ For the analyses conducted in this study, the scripts should be run in the follo
 
 Note: Licenses of these functions are provided in the `Functions` folder.
 
-### 4. Results
+### Results
 
 The `Results` folder contains:
 
@@ -67,7 +67,7 @@ The `Results` folder contains:
 
 - `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output from `analysis_repli`)
 
-## 5. Software requirements
+## 4. Software requirements
 Analyses were conducted using Python 3.8.
 
 For requirements please refer to `requirements.txt`.	
