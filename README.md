@@ -32,7 +32,7 @@ For the analyses conducted in this study, the scripts should be run in the follo
 
 ### Additional analyses
 
-5. `compare_mse` - Comparing patterns of association between multiscale entropy and intelligence between main and replication sample
+5. `compare_mse` - Comparing patterns of associations between multiscale entropy and intelligence between main and replication sample
 
 ### Visualization
 
