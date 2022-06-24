@@ -39,7 +39,11 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 ### Functions
 
-``
+`microstates_subject` - Computing subject-specific microstates, function from mne-microstates module authored by Marijn van Vliet (https://github.com/wmvanvliet/mne_microstates.git)
+
+`microstates_group` - Computing group-specific microstates, same function as `microstates_subject` with minor changes.
+
+Note: The Licence of these functions is provided in the `Functions` folder.
 
 ## 5. Software requirements
 -	Python 3.8
