@@ -6,7 +6,7 @@ The repository contains scripts for the analyses used in the paper **"Multimodal
 The scripts in this repository can be used to replicate the analyses of the paper or more generally, to study associations between individual differences (e.g., intelligence) and measures of brain signal complexity.
 In case you have questions or trouble with the scripts, feel free to contact me at jonas.thiele@uni-wuerzburg.de
 ## 2. Data
-Raw data for this study consisted of: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), and participant variables (Age, Sex). 
+Raw data for this study consisted of: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), and participant variables (age, sex). 
 Raw data of the main sample was acquired at Würzburg University while raw data of the replication sample was acquired at Frankfurt University.
 The raw data analyzed during the study will be made available by the corresponding author upon reasonable request.
 
