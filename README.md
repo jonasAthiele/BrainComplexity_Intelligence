@@ -2,21 +2,21 @@
 
 
 ## 1. Scope
-The repository contains scripts for the analyses used in the paper **"Multimodal Brain Signal Complexity Predicts Human Intelligence"** coauthored by Jonas A. Thiele, Aylin Richter, and Kirsten Hilger (doi: add when published). Herein, the relations between intelligence and different measures of brain signal complexity (assessed from resting-state EEG) are analyzed.
+The repository contains scripts for the analyses used in the paper **"Multimodal Brain Signal Complexity Predicts Human Intelligence"** coauthored by Jonas A. Thiele, Aylin Richter, and Kirsten Hilger (doi: add when published). Herein, the relations between intelligence and different measures of brain signal complexity (assessed from resting-state EEG) were analyzed.
 The scripts in this repository can be used to replicate the analyses of the paper or more generally, to study associations between individual differences (e.g., intelligence) and measures of brain signal complexity.
 If you have questions or trouble with the scripts, feel free to contact me: jonas.thiele@uni-wuerzburg.de
 ## 2. Data
-Raw data included: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), Behavioral data (Age, Sex). 
+Raw data of the study were: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), behavioral data (Age, Sex). 
 Raw data of the main sample was aquired at Würzburg University, raw data of the replication sample was aquired at Frankfurt University.
 The raw data analyzed during the current study are available from the corresponding author upon reasonable request.
 
 ## 4. Structure and Script description
 ### Main sample
 
-For the analysis done in the paper, the scripts should be run in the following order:
+For the analyses done in the paper, the scripts should be run in the following order:
 
 1.	`get_complexity_main` - Preprocessing, computation of complexity measures (entropy and microstate measures)
-                            &nbsp;&nbsp;&nbsp;&nbsp;Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal in preprocessing.
+                            Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal during preprocessing.
                             Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015). 
   
 2.	`analysis_main` - Factor analysis, single associations between complexity measures and intelligence, multimodal model to predict intelligence in main sample
@@ -25,17 +25,18 @@ For the analysis done in the paper, the scripts should be run in the following o
 ### Replication sample
 
 3.	`get_complexity_repli` - Preprocessing, computation of complexity measures (entropy and microstate measures)
-                             Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal in preprocessing.   
+                             Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal during preprocessing.   
   
 4.	`analysis_repli` - Factor analysis, single associations between complexity measures and intelligence, multimodal model to predict intelligence in main sample
 
-### Visualization
-
-5. `plot_results` - Visualization of association between complexity measures and intelligence
-
 ### Additional analysis
 
-6. `compare_mse` - Comparing patterns of association between multiscale entropy and intelligence in main and replication sample
+5. `compare_mse` - Comparing patterns of association between multiscale entropy and intelligence between main and replication sample
+
+### Visualization
+
+6. `plot_results` - Visualization of associations between complexity measures and intelligence
+
 
 ### Functions
 
@@ -45,27 +46,27 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 - `entropy` - For computing Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
 
-Note: The Licences of these functions are provided in the `Functions` folder.
+Note: Licences of these functions are provided in the `Functions` folder.
 
 ### Results
 
 In the `Results` folder you can find:
 
-- `df_complexity.pkl` - Complexity measure calculated on the main sample (output of `get_complexity`)
+- `df_complexity` - Complexity measures calculated on the main sample (output of `get_complexity_main`)
 
-- `microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, needed for replication analyses)
+- `microstates_group` - Group microstates computed in the main sample (output of `df_complexity.pkl`, needed for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
 
-- `df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
+- `df_complexity_repli` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
 
-- `df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main`)
+- `df_results_main` - Associations between complexity measures and intelligence from main sample (output of `analysis_main`)
 
-- `df_results_repli.pkl` - Associations between complexity measures and intelligence replication sample (output of `analysis_repli`)
+- `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output of `analysis_repli`)
 
 ## 5. Software requirements
--	Python 3.8
--	
+Analyses were done in Python 3.8
+For requirements please refer to `Requirements.txt`.	
 
 ## References
 Bigdely-Shamlo N, Mullen T, Kothe C, Su K-M, Robbins KA (2015) The PREP pipeline: standardized preprocessing for large-scale EEG analysis. Front Neuroinform 9.
