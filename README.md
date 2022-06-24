@@ -59,7 +59,7 @@ In the `Results` folder you can find:
 
 'df_complexity_repli.pkl' - Complexity measure calculated on the replication sample (output of  `get_complexity_repli` and needed for `analysis_repli`)
 
-'df_results_main.pkl' - Associations between complexity measures and intelligence main sample (output of `analysis_main` and needed for `plot_results`)
+`df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main` and needed for `plot_results`)
 
 'df_results_repli.pkl' - Associations between complexity measures and intelligence replication sample (output of `analysis_main` and needed for `plot_results`)
 
