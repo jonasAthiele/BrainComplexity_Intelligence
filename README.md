@@ -54,6 +54,8 @@ In the `Results` folder you can find:
 
 - `df_complexity` - Complexity measures calculated on the main sample (output of `get_complexity_main`)
 
+- `info_raw.fif` - File with channel locations for plotting
+
 - `microstates_group` - Group microstates computed in the main sample (output of `df_complexity.pkl`, needed for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
