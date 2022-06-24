@@ -52,9 +52,11 @@ Note: The Licences of these functions are provided in the `Functions` folder.
 -	
 
 ## References
-1.	Raven JC, Court JH (1998) Manual for Raven’s progressive matrices and vocabulary scales.
-2.	Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Goj R, Jas M, Brooks T, Parkkonen L, Hämäläinen M (2013) MEG and EEG data analysis with MNE-Python. Front Neurosci 0:267.
-3.	Bigdely-Shamlo N, Mullen T, Kothe C, Su K-M, Robbins KA (2015) The PREP pipeline: standardized preprocessing for large-scale EEG analysis. Front Neuroinform 9.
+Bigdely-Shamlo N, Mullen T, Kothe C, Su K-M, Robbins KA (2015) The PREP pipeline: standardized preprocessing for large-scale EEG analysis. Front Neuroinform 9.
+
+Gramfort A, Luessi M, Larson E, Engemann DA, Strohmeier D, Brodbeck C, Goj R, Jas M, Brooks T, Parkkonen L, Hämäläinen M (2013) MEG and EEG data analysis with MNE-Python. Front Neurosci 0:267.
+
+Raven JC, Court JH (1998) Manual for Raven’s progressive matrices and vocabulary scales.
 ## Copyright
 Copyright (cc) 2022 by Jonas Thiele
 
