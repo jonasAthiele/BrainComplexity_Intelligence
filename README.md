@@ -57,7 +57,7 @@ The `Results` folder contains:
 
 - `info_raw.fif` - EEG file with channel locations for plotting
 
-- `microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, necessary for replication analyses)
+- `microstates_group.npy` - Group microstates computed in the main sample (output from `get_complexity_main`, necessary for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
 
