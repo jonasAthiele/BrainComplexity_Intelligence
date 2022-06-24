@@ -55,8 +55,6 @@ The `Results` folder contains:
 
 - `df_complexity.pkl` - Complexity measures calculated in the main sample (output from `get_complexity_main`)
 
-- `info_raw.fif` - EEG file with channel locations for plotting
-
 - `microstates_group.npy` - Group microstates computed in the main sample (output from `get_complexity_main`, necessary for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `get_complexity_main`)
@@ -66,6 +64,8 @@ The `Results` folder contains:
 - `df_results_main` - Associations between complexity measures and intelligence from main sample (output from `analysis_main`)
 
 - `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output from `analysis_repli`)
+
+- `info_raw.fif` - EEG file with channel locations for plotting
 
 ## 4. Software requirements
 Analyses were conducted using Python 3.8.
