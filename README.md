@@ -61,7 +61,7 @@ The `Results` folder contains:
 
 - `channel_names` - Channel names of main sample (output from `get_complexity_main`)
 
-- `df_complexity_repli.pkl` - Complexity measure calculated in the replication sample (output from  `get_complexity_repli`)
+- `df_complexity_repli.pkl` - Complexity measures calculated in the replication sample (output from  `get_complexity_repli`)
 
 - `df_results_main` - Associations between complexity measures and intelligence from main sample (output from `analysis_main`)
 
