@@ -2,34 +2,35 @@
 
 
 ## 1. Scope
-The repository contains scripts for the analyses used in the paper **"Multimodal Brain Signal Complexity Predicts Human Intelligence"** coauthored by Jonas A. Thiele, Aylin Richter, and Kirsten Hilger (doi: add when published). Herein, the relations between intelligence and different measures of brain signal complexity (assessed from resting-state EEG) were analyzed.
+The repository contains scripts for the analyses used in the paper **"Multimodal Brain Signal Complexity Predicts Human Intelligence"** coauthored by Jonas A. Thiele, Aylin Richter, and Kirsten Hilger (doi: added once published). Herein, the relations between intelligence and different measures of brain signal complexity (assessed from resting-state EEG) were analyzed.
 The scripts in this repository can be used to replicate the analyses of the paper or more generally, to study associations between individual differences (e.g., intelligence) and measures of brain signal complexity.
-If you have questions or trouble with the scripts, feel free to contact me: jonas.thiele@uni-wuerzburg.de
+In case you have questions or trouble with the scripts, feel free to contact me at jonas.thiele@uni-wuerzburg.de
 ## 2. Data
-Raw data of the study were: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), behavioral data (Age, Sex). 
-Raw data of the main sample was aquired at Würzburg University, raw data of the replication sample was aquired at Frankfurt University.
-The raw data analyzed during the current study are available from the corresponding author upon reasonable request.
+Raw data for this study consisted of: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), and behavioral data (Age, Sex). 
+Raw data of the main sample was aquired at Würzburg University while raw data of the replication sample was aquired at Frankfurt University.
+The raw data analyzed during the current study will be made available by the corresponding author upon reasonable request.
 
 ## 4. Structure and Script description
 ### Main sample
 
-For the analyses done in the paper, the scripts should be run in the following order:
+For the analyses conducted in this study, the scripts should be run in the following order:
 
 1.	`get_complexity_main` - Preprocessing, computation of complexity measures (entropy and microstate measures)
-                            Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal during preprocessing.
+                            Note that ICA components wanting to be excluded for artefact removal during preprocessing need to be adapted manually (chosen by visual inspection).
                             Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015). 
   
-2.	`analysis_main` - Factor analysis, single associations between complexity measures and intelligence, multimodal model to predict intelligence in main sample
+2.	`analysis_main` - Factor analysis, single associations between complexity measures and intelligence, and multimodal model to predict intelligence in main sample
   
 
 ### Replication sample
 
 3.	`get_complexity_repli` - Preprocessing, computation of complexity measures (entropy and microstate measures)
-                             Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal during preprocessing.   
+                             Note that ICA components wanting to be excluded for artefact removal during preprocessing need to be adapted manually (chosen by visual inspection). 
+                             Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015).   
   
-4.	`analysis_repli` - Factor analysis, single associations between complexity measures and intelligence, multimodal model to predict intelligence in main sample
+4.	`analysis_repli` - Factor analysis, single associations between complexity measures and intelligence, and multimodal model to predict intelligence in main sample
 
-### Additional analysis
+### Additional analyses
 
 5. `compare_mse` - Comparing patterns of association between multiscale entropy and intelligence between main and replication sample
 
@@ -44,30 +45,30 @@ For the analyses done in the paper, the scripts should be run in the following o
 
 - `microstates_group` - Computing group-specific microstates, same functions as `microstates_subject` with a minor change.
 
-- `entropy` - For computing Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
+- `entropy` - For computation of Fuzzy entropy, authored by Kenneth Lyons (https://github.com/ixjlyons/entro-py.git)
 
-Note: Licences of these functions are provided in the `Functions` folder.
+Note: Licenses of these functions are provided in the `Functions` folder.
 
 ### Results
 
-In the `Results` folder you can find:
+The `Results` folder contains:
 
-- `df_complexity.pkl` - Complexity measures calculated on the main sample (output of `get_complexity_main`)
+- `df_complexity.pkl` - Complexity measures calculated in the main sample (output from `get_complexity_main`)
 
 - `info_raw.fif` - EEG file with channel locations for plotting
 
-- `microstates_group.npy` - Group microstates computed in the main sample (output of `df_complexity.pkl`, needed for replication analyses)
+- `microstates_group.npy` - Group microstates computed in the main sample (output from `df_complexity.pkl`, necessary for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
 
-- `df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
+- `df_complexity_repli.pkl` - Complexity measure calculated in the replication sample (output from  `get_complexity_repli`)
 
-- `df_results_main` - Associations between complexity measures and intelligence from main sample (output of `analysis_main`)
+- `df_results_main` - Associations between complexity measures and intelligence from main sample (output from `analysis_main`)
 
-- `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output of `analysis_repli`)
+- `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output from `analysis_repli`)
 
 ## 5. Software requirements
-Analyses were done in Python 3.8
+Analyses were conducted using Python 3.8
 For requirements please refer to `Requirements.txt`.	
 
 ## References
