@@ -59,7 +59,7 @@ The `Results` folder contains:
 
 - `microstates_group.npy` - Group microstates computed in the main sample (output from `get_complexity_main`, necessary for replication analyses)
 
-- `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
+- `channel_names` - Channel names of main sample (output from `get_complexity_main`)
 
 - `df_complexity_repli.pkl` - Complexity measure calculated in the replication sample (output from  `get_complexity_repli`)
 
