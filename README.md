@@ -10,7 +10,7 @@ Raw data for this study consisted of: Resting-state EEG data (5 minutes eyes-clo
 Raw data of the main sample was acquired at Würzburg University while raw data of the replication sample was acquired at Frankfurt University.
 The raw data analyzed during the study will be made available by the corresponding author upon reasonable request.
 
-## 4. Structure and Script description
+## 3. Structure and Script description
 ### Main sample
 
 For the analyses conducted in this study, the scripts should be run in the following order:
@@ -49,7 +49,7 @@ For the analyses conducted in this study, the scripts should be run in the follo
 
 Note: Licenses of these functions are provided in the `Functions` folder.
 
-### Results
+### 4. Results
 
 The `Results` folder contains:
 
