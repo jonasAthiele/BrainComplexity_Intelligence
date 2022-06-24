@@ -8,7 +8,7 @@ In case you have questions or trouble with the scripts, feel free to contact me 
 ## 2. Data
 Raw data for this study consisted of: Resting-state EEG data (5 minutes eyes-closed), intelligence scores (Raven's Advanced Progressive Matrices scores, Raven and Court, 1998), and behavioral data (Age, Sex). 
 Raw data of the main sample was aquired at Würzburg University while raw data of the replication sample was aquired at Frankfurt University.
-The raw data analyzed during the current study will be made available by the corresponding author upon reasonable request.
+The raw data analyzed during the study will be made available by the corresponding author upon reasonable request.
 
 ## 4. Structure and Script description
 ### Main sample
