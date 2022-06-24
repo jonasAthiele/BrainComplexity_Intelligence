@@ -68,7 +68,8 @@ The `Results` folder contains:
 - `df_results_repli` - Associations between complexity measures and intelligence from replication sample (output from `analysis_repli`)
 
 ## 5. Software requirements
-Analyses were conducted using Python 3.8
+Analyses were conducted using Python 3.8.
+
 For requirements please refer to `requirements.txt`.	
 
 ## References
