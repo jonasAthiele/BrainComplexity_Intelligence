@@ -57,7 +57,7 @@ In the `Results` folder you can find:
 
 `channel_names` - Channel names of main sample (output from `df_complexity.pkl`, needed for all subsequent analyses)
 
-'df_complexity_repli.pkl' - Complexity measure calculated on the replication sample (output of  `get_complexity_repli` and needed for `analysis_repli`)
+`df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli` and needed for `analysis_repli`)
 
 `df_results_main.pkl` - Associations between complexity measures and intelligence main sample (output of `analysis_main` and needed for `plot_results`)
 
