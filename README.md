@@ -37,6 +37,10 @@ For the analysis done in the paper, the scripts should be run in the following o
 
 6. `compare_mse` - Comparing patterns of association between multiscale entropy and intelligence in main and replication sample
 
+### Functions
+
+``
+
 ## 5. Software requirements
 -	Python 3.8
 -	
