@@ -16,7 +16,7 @@ The raw data analyzed during the current study are available from the correspond
 For the analysis done in the paper, the scripts should be run in the following order:
 
 1.	`get_complexity_main` - Preprocessing, computation of complexity measures (entropy and microstate measures)
-                            Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal in preprocessing.
+                            &nbsp;&nbsp;&nbsp;&nbsp;Note that ICA components to remove need to be adapted manually (visual inspection) for artefact removal in preprocessing.
                             Preprocessing is mainly based on MNE (Gramfort et al., 2013) and Pyprep (Bigdely-Shamlo et al., 2015). 
   
 2.	`analysis_main` - Factor analysis, single associations between complexity measures and intelligence, multimodal model to predict intelligence in main sample
