@@ -52,15 +52,15 @@ Note: Licences of these functions are provided in the `Functions` folder.
 
 In the `Results` folder you can find:
 
-- `df_complexity` - Complexity measures calculated on the main sample (output of `get_complexity_main`)
+- `df_complexity.pkl` - Complexity measures calculated on the main sample (output of `get_complexity_main`)
 
 - `info_raw.fif` - EEG file with channel locations for plotting
 
-- `microstates_group` - Group microstates computed in the main sample (output of `df_complexity.pkl`, needed for replication analyses)
+- `microstates_group.npy` - Group microstates computed in the main sample (output of `df_complexity.pkl`, needed for replication analyses)
 
 - `channel_names` - Channel names of main sample (output from `df_complexity.pkl`)
 
-- `df_complexity_repli` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
+- `df_complexity_repli.pkl` - Complexity measure calculated on the replication sample (output of  `get_complexity_repli`)
 
 - `df_results_main` - Associations between complexity measures and intelligence from main sample (output of `analysis_main`)
 
