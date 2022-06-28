@@ -21,7 +21,6 @@ For the analyses conducted in this study, the scripts should be run in the follo
   
 2.	`analysis_main` - Factor analysis, single associations between complexity measures and intelligence, and multimodal model to predict intelligence in main sample
   
-
 ### Replication sample
 
 3.	`get_complexity_repli` - Replication sample: Preprocessing, computation of complexity measures (entropy and microstate measures).
