@@ -49,7 +49,7 @@ print('-------------------------------------------')
 
 # compare all associations between intelligence and clustered mse between main and replication sample
 idx_vars = []
-n_cluster = 7
+n_cluster = 8
 n_scale = 4
 for ch in range(n_cluster):
     for sc in range(n_scale):
