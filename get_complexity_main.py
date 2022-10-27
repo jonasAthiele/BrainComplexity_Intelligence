@@ -644,7 +644,7 @@ table_MSE = pd.DataFrame(data, columns = columns)
 
        
 # MSE in spatial and temporal cluster for prediction models
-spatial_cluster = [['Fp1','Fp2'],['FC1','FC2','FC5','FC6'],['F3','F7','F4','F8'],['T7','T8'],['CP5','CP1','CP6','CP2'],['P3','P7','P4','P8','Pz'],['O1','Oz','O2']]
+spatial_cluster = [['Fp1','Fp2'],['FC1','FC2','FC5','FC6'],['F3','F7','Fz','F4','F8'],['T7','T8'],['CP5','CP1','CP6','CP2'],['C3','Cz','C4'],['P3','P7','P4','P8','Pz'],['O1','Oz','O2']]
 scale_cluster = np.arange(0,5), np.arange(5,10), np.arange(10,15), np.arange(15,20) # 4 clusters with 5 consecutive time steps each
 
 idx_spatial_cluster = []
