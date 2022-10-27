@@ -439,7 +439,7 @@ results_p_adj.append(p_val_adj)
 
 
 # associations between clustered MSE and RAPM scores
-n_cluster = 7
+n_cluster = 8
 n_scale = 4
 corr_ch_sc = np.zeros((n_cluster,n_scale))
 p_ch_sc = np.zeros((n_cluster,n_scale))
