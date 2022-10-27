@@ -114,7 +114,7 @@ df_vars_fa = df_complexity.copy()
 idx_ID = np.where(df_complexity.columns == 'IDs_subjects_neuro')[0] 
 idx_epochs = np.where(df_complexity.columns == 'epochs_rejected')[0] 
 
-n_cluster = 7
+n_cluster = 8
 n_scale = 4
 idx_mse_cluster = []
 for ch in range(n_cluster):
@@ -531,7 +531,7 @@ results_p_adj.append(p_val_adj)
 
 
 # associations between clustered MSE and RAPM scores
-n_cluster = 7
+n_cluster = 8
 n_scale = 4
 corr_ch_sc = np.zeros((n_cluster,n_scale))
 p_ch_sc = np.zeros((n_cluster,n_scale))
